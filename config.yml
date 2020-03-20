@@ -1,0 +1,17 @@
+database:
+  driver: sqlite3
+  connection: product.db
+  # connection: root:1234@tcp(127.0.0.1:3306)/product?charset=utf8&parseTime=True&loc=Local
+eventBroker:
+  kafka:
+    brokers:
+      - 127.0.0.1:9092
+    topic: product
+behaviorLog:
+  kafka:
+    brokers:
+      - 127.0.0.1:9092
+    topic: behaviorlog
+debug: true
+serviceName: product-api
+httpPort: 5000

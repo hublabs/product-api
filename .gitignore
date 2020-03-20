@@ -1,0 +1,7 @@
+product-api
+product-api.exe
+product.db
+product.db-journal
+.vscode
+.DS_Store
+*.db
