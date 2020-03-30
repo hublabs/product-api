@@ -8,7 +8,7 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-xorm/xorm v0.7.9
-	github.com/hublabs/common v0.0.0-20200324033629-ccea30a808a2
+	github.com/hublabs/common v0.0.0-20200326103156-482bf07a968e
 	github.com/labstack/echo v3.3.10+incompatible
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
 	github.com/pangpanglabs/echoswagger v1.2.0

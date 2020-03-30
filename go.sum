@@ -112,6 +112,8 @@ github.com/hashicorp/hcl v1.0.0/go.mod h1:E5yfLk+7swimpb2L/Alb/PJmXilQ/rhwaUYs4T
 github.com/hpcloud/tail v1.0.0/go.mod h1:ab1qPbhIpdTxEkNHXyeSf5vhxWSCs/tWer42PpOxQnU=
 github.com/hublabs/common v0.0.0-20200324033629-ccea30a808a2 h1:QOMcRKUSGN8IPV150KzbgaACMSnmQwnB7/nGnTZ7XIc=
 github.com/hublabs/common v0.0.0-20200324033629-ccea30a808a2/go.mod h1:fp9zT0a9/7jtyn0YncIrfR00B0D05WJMd+WHdRw16MA=
+github.com/hublabs/common v0.0.0-20200326103156-482bf07a968e h1:xfVfaW71KzNRkG7GjmiH4DjdxmuaeB6ig14yDjeCKLU=
+github.com/hublabs/common v0.0.0-20200326103156-482bf07a968e/go.mod h1:fp9zT0a9/7jtyn0YncIrfR00B0D05WJMd+WHdRw16MA=
 github.com/jackc/fake v0.0.0-20150926172116-812a484cc733/go.mod h1:WrMFNQdiFJ80sQsxDoMokWK1W5TQtxBFNpzWTD84ibQ=
 github.com/jackc/pgx v3.6.0+incompatible/go.mod h1:0ZGrqGqkRlliWnWB4zKnWtjbSWbGkVEFm4TeybAXq+I=
 github.com/jcmturner/gofork v0.0.0-20190328161633-dc7c13fece03 h1:FUwcHNlEqkqLjLBdCp5PRlCFijNjvcYANOZXzCfXwCM=

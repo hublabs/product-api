@@ -17,11 +17,11 @@ func renderFail(c echo.Context, err error) error {
 		err = api.ErrorUnknown.New(nil)
 	}
 	behaviorlog.FromCtx(c.Request().Context()).WithError(err)
-	var apiError *api.Error
+	var apiError api.Error
 	if ok := errors.As(err, &apiError); ok {
 		return c.JSON(apiError.Status(), api.Result{
 			Success: false,
-			Error:   *apiError,
+			Error:   apiError,
 		})
 	}
 	return err
