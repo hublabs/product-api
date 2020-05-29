@@ -137,7 +137,7 @@ func excludeDeleted(table string) string {
 
 func tenantCode(ctx context.Context) string {
 	user := auth.UserClaim{}.FromCtx(ctx)
-	return user.Audience
+	return user.TenantCode
 }
 
 func appendStrArgs(args []interface{}, isNum bool, ts ...string) []interface{} {
